@@ -1,4 +1,4 @@
-# Introduction to Probability and Statistics - M.Tech ML Study Notes
+# Introduction to Probability and Statistics - UNIT_1
 
 ## Topic Importance Classification
 
