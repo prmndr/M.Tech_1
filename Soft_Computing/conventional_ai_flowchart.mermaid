@@ -1,0 +1,32 @@
+flowchart TD
+    A[Conventional AI<br/>Symbolic AI / Classic AI<br/>1950s-1980s] --> B[Rule-Based Systems<br/>• Expert Systems<br/>• Knowledge-Based Systems<br/>• IF-THEN Rules]
+    
+    A --> C[Symbolic Representation<br/>• Symbols & Predicates<br/>• Logical Rules<br/>• Formal Logic]
+    
+    A --> D[Narrow Scope<br/>• Domain-Specific<br/>• No Learning<br/>• No Adaptation]
+    
+    B --> E[Examples:<br/>MYCIN - Medical Diagnosis<br/>DENDRAL - Chemistry<br/>CLIPS - Expert System Shell]
+    
+    C --> F[Knowledge Representation:<br/>Predicate Logic<br/>Semantic Networks<br/>Frames & Scripts]
+    
+    D --> G[Limitations:<br/>Brittle Systems<br/>Knowledge Bottleneck<br/>Static Knowledge Base]
+    
+    E --> H[Problem-Solving Process]
+    F --> H
+    G --> H
+    
+    H --> I[Input Problem] --> J[Apply Rules] --> K[Logical Inference] --> L[Output Solution]
+    
+    J --> M{Rule Matches?}
+    M -->|Yes| K
+    M -->|No| N[System Fails<br/>No Solution]
+    
+    style A fill:#e1f5fe
+    style B fill:#f3e5f5
+    style C fill:#e8f5e8
+    style D fill:#ffebee
+    style E fill:#f9fbe7
+    style F fill:#f3e5f5
+    style G fill:#ffcdd2
+    style H fill:#e0f2f1
+    style N fill:#ffcdd2
