@@ -1,0 +1,63 @@
+flowchart TD
+    A[Fuzzy Sets<br/>Deal with Uncertainty & Imprecision] --> B[Main Difference from Classical Sets]
+    
+    B --> C[Classical Sets<br/>🔴 Either IN or OUT<br/>Membership = 0 or 1<br/>Black & White]
+    
+    B --> D[Fuzzy Sets<br/>🌈 Partial Membership<br/>Membership = 0 to 1<br/>Shades of Gray]
+    
+    C --> E[Example: Classical<br/>Person is TALL or NOT TALL<br/>No in-between]
+    
+    D --> F[Example: Fuzzy<br/>Person can be<br/>SOMEWHAT TALL<br/>MODERATELY TALL<br/>VERY TALL]
+    
+    E --> G[Components of Fuzzy Sets]
+    F --> G
+    
+    G --> H[Universe of Discourse<br/>📏 All Possible Values<br/>Example: Heights 100-220cm]
+    
+    G --> I[Membership Function<br/>📊 Maps Values to Degrees<br/>Shows HOW MUCH an element belongs]
+    
+    H --> J[Real Example: Human Height]
+    I --> J
+    
+    J --> K[Height Categories & Membership Degrees]
+    
+    K --> L[Very Short 👶<br/>< 150 cm<br/>µ = 0.0<br/>Not Tall at All]
+    
+    K --> M[Short 🧒<br/>150-160 cm<br/>µ = 0.2<br/>Slightly Tall]
+    
+    K --> N[Medium 👤<br/>160-170 cm<br/>µ = 0.5<br/>Moderately Tall]
+    
+    K --> O[Tall 🏃<br/>170-180 cm<br/>µ = 0.8<br/>Quite Tall]
+    
+    K --> P[Very Tall 🏀<br/>> 180 cm<br/>µ = 1.0<br/>Definitely Tall]
+    
+    L --> Q[Practical Examples]
+    M --> Q
+    N --> Q
+    O --> Q
+    P --> Q
+    
+    Q --> R[Person A: 165 cm<br/>µ = 0.5<br/>🤷 Moderately Tall]
+    
+    Q --> S[Person B: 185 cm<br/>µ = 1.0<br/>🏀 Very Tall]
+    
+    Q --> T[Person C: 155 cm<br/>µ = 0.2<br/>🧒 Slightly Tall]
+    
+    R --> U[Benefits of Fuzzy Sets]
+    S --> U
+    T --> U
+    
+    U --> V[Flexibility<br/>✓ Handles Gray Areas<br/>✓ More Natural<br/>✓ Like Human Thinking]
+    
+    U --> W[Real-World Applications<br/>• Air Conditioning Control<br/>• Medical Diagnosis<br/>• Image Recognition<br/>• Decision Making]
+    
+    style A fill:#e1f5fe
+    style C fill:#ffcdd2
+    style D fill:#c8e6c9
+    style L fill:#ffecb3
+    style M fill:#fff3c4
+    style N fill:#dcedc8
+    style O fill:#c5e1a5
+    style P fill:#aed581
+    style V fill:#e8f5e8
+    style W fill:#f3e5f5
